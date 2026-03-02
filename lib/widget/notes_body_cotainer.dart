@@ -22,7 +22,7 @@ class NotesBodyCotainer extends StatelessWidget {
             ),
 
             subtitle: Padding(
-              padding: const EdgeInsets.only(top: 20),
+              padding: const EdgeInsets.only(top: 25),
               child: Text(
                 "You will be better when you focus i your dream",
                 style: TextStyle(
