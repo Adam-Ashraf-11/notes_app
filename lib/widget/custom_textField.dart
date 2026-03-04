@@ -10,6 +10,7 @@ class CustomTextField extends StatelessWidget {
     return TextField(
       maxLines: maxLines,
       cursorColor: kPrimaryColor,
+      cursorWidth: 2,
       decoration: InputDecoration(
         hintText: hint,
         border: buildBorder(),
