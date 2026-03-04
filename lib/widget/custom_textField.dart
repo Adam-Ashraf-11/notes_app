@@ -12,7 +12,6 @@ class CustomTextField extends StatelessWidget {
       cursorColor: kPrimaryColor,
       decoration: InputDecoration(
         hintText: hint,
-
         border: buildBorder(),
         focusedBorder: buildBorder(kPrimaryColor),
         enabledBorder: buildBorder(),
@@ -20,6 +19,7 @@ class CustomTextField extends StatelessWidget {
     );
   }
 
+//! buildBorder method.....
   OutlineInputBorder buildBorder([color]) {
     return OutlineInputBorder(
       borderRadius: BorderRadius.circular(8),

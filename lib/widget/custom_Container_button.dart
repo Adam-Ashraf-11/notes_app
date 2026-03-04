@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_notes/constans.dart';
+
+class CustomContainerButton extends StatelessWidget {
+  const CustomContainerButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {},
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16),
+          color: kPrimaryColor,
+        ),
+        height: 55,
+        width: MediaQuery.of(context).size.width,
+        child: const Center(
+          child: Text(
+            "Add",
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
+    );
+  }
+}
