@@ -17,14 +17,14 @@ class NotesView extends StatelessWidget {
             },
           );
         },
-        child: const Icon(
-          Icons.add,
-          color: const Color.fromARGB(255, 255, 255, 255),
-        ),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadiusGeometry.circular(50),
         ),
         backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+        child: const Icon(
+          Icons.add,
+          color: Color.fromARGB(255, 255, 255, 255),
+        ),
       ),
       body: NotesViewBody(),
     );
