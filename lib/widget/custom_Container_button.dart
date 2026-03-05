@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notes/constans.dart';
 
 class CustomContainerButton extends StatelessWidget {
-  const CustomContainerButton({super.key});
-
+  const CustomContainerButton({super.key, this.onTap});
+ final void Function()? onTap ;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: onTap,
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),

@@ -1,3 +1,5 @@
 import 'dart:ui';
 
-final kPrimaryColor = const Color.fromARGB(255, 255, 60, 0);
+final kPrimaryColor = const Color(0xff35F0CB);
+
+final kNotesBox = "notes_box" ;
